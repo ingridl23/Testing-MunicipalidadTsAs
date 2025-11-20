@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 19 08:59:13 ART 2025</td>
+<td>Started on:</td><td>Thu Nov 20 10:49:43 ART 2025</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8168 ms)</td>
+<tr><td>Total time:</td><td>5 seconds (5151 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -111,8 +111,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1478995734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1478995734'><pre>java.lang.AssertionError: expected [Bienvenidos a la Oficina de Empleo y Capacitación de Tres Arroyos] but found [Tres Arroyos]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1661777060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1661777060'><pre>java.lang.AssertionError: expected [Bienvenidos a la Oficina de Empleo y Capacitación de Tres Arroyos] but found [Tres Arroyos]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -147,19 +147,19 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>2</td>
-<td>mainTest.SitioOficinaEmpleo@ba2f4ec</td></tr>
+<td>1</td>
+<td>mainTest.SitioOficinaEmpleo@55fe41ea</td></tr>
 <tr>
-<td title='mainTest.SitioOficinaEmpleo.testFormularioBuscoEmpleo()'><b>testFormularioBuscoEmpleo</b><br>Test class: mainTest.SitioOficinaEmpleo</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (299, 702)
+<td title='mainTest.SitioOficinaEmpleo.seccionEmprendedores()'><b>seccionEmprendedores</b><br>Test class: mainTest.SitioOficinaEmpleo</td>
+<td><div><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aeb2bbb6f215b7ff9303ee422d299a4d, clickElement {id=f.4FB03476051E64A9032EB165E1037577.d.195D5336F6F426111416788075CFF194.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\Martin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56547}, goog:processID: 452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56547/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aeb2bbb6f215b7ff9303ee422d299a4d)] -&gt; id: formacion-primario]
-Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
+Command: [582e1b8c79d5244bf181358d4e27934a, findElement {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\Martin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58789}, goog:processID: 2012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58789/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 582e1b8c79d5244bf181358d4e27934a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -170,10 +170,17 @@ Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at testAutomatizacion.EmpleoFormTest.enviarFormularioComoBuscoEmpleo(EmpleoFormTest.java:154)
-	at mainTest.SitioOficinaEmpleo.testFormularioBuscoEmpleo(SitioOficinaEmpleo.java:81)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:198)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:632)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testAutomatizacion.EmpleoLoginTest.emprendedores(EmpleoLoginTest.java:128)
+	at mainTest.SitioOficinaEmpleo.seccionEmprendedores(SitioOficinaEmpleo.java:97)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -200,16 +207,16 @@ Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1572442646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1572442646'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (299, 702)
+</pre></div><a href='#' onClick='toggleBox("stack-trace436094532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace436094532'><pre>org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
   (Session info: chrome=142.0.7444.163)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
 Build info: version: &apos;4.38.0&apos;, revision: &apos;6b412e825c&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [aeb2bbb6f215b7ff9303ee422d299a4d, clickElement {id=f.4FB03476051E64A9032EB165E1037577.d.195D5336F6F426111416788075CFF194.e.37}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\Martin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56547}, goog:processID: 452, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56547/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (aeb2bbb6f215b7ff9303ee422d299a4d)] -&gt; id: formacion-primario]
-Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
+Command: [582e1b8c79d5244bf181358d4e27934a, findElement {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\Martin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58789}, goog:processID: 2012, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58789/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 582e1b8c79d5244bf181358d4e27934a
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -220,10 +227,17 @@ Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at testAutomatizacion.EmpleoFormTest.enviarFormularioComoBuscoEmpleo(EmpleoFormTest.java:154)
-	at mainTest.SitioOficinaEmpleo.testFormularioBuscoEmpleo(SitioOficinaEmpleo.java:81)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:198)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:632)
+	at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:629)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at testAutomatizacion.EmpleoLoginTest.emprendedores(EmpleoLoginTest.java:128)
+	at mainTest.SitioOficinaEmpleo.seccionEmprendedores(SitioOficinaEmpleo.java:97)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -251,8 +265,27 @@ Session ID: aeb2bbb6f215b7ff9303ee422d299a4d
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>4</td>
-<td>mainTest.SitioOficinaEmpleo@ba2f4ec</td></tr>
+<td>0</td>
+<td>mainTest.SitioOficinaEmpleo@55fe41ea</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='mainTest.SitioOficinaEmpleo.seccionNoticias()'><b>seccionNoticias</b><br>Test class: mainTest.SitioOficinaEmpleo</td>
+<td></td>
+<td>1</td>
+<td>mainTest.SitioOficinaEmpleo@55fe41ea</td></tr>
+<tr>
+<td title='mainTest.SitioOficinaEmpleo.seccionProgramas()'><b>seccionProgramas</b><br>Test class: mainTest.SitioOficinaEmpleo</td>
+<td></td>
+<td>0</td>
+<td>mainTest.SitioOficinaEmpleo@55fe41ea</td></tr>
 </table><p>
 </body>
 </html>

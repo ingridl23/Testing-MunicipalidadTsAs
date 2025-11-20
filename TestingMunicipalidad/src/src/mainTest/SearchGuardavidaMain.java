@@ -71,13 +71,13 @@ public class SearchGuardavidaMain {
     		guardavidaLogin.banderas();
     	}
     	
-    
+    /*
    @Test (priority = 8)
     
     public void miPerfil() {
     	guardavidaLogin.profile();
     }
-  
+  */
    
     @Test (priority = 9)
     

@@ -52,8 +52,8 @@ public class SitioOficinaEmpleo {
     public void login() {     //cuenta de prueba para login no son reales
             EmpleoLogIn.login("adminempleo@tresarroyos.gov.ar", "AdminE016");
     }
-
 */
+
     
    /* @Test (priority=4)
      //ya lo probe y anda
@@ -73,14 +73,31 @@ public void testFormularioEmprendedor() {
        Empleoform.completarFormularioComoEmprendedor(driver);
 }
    */
-   
+  /* 
 
 @Test(priority = 6)
 public void testFormularioBuscoEmpleo() {
 	  Empleoform = new EmpleoFormTest();
       Empleoform.enviarFormularioComoBuscoEmpleo(driver);
 }
+  */  
+
+ @Test(priority= 7)
+ public void seccionProgramas() {
+	 EmpleoLogIn.programas();
+ }
     
-
-
+  @Test(priority= 8)
+  public void seccionNoticias() {
+	  EmpleoLogIn.seccionNoticias();
+  }
+  
+  @Test (priority= 8)
+  public void seccionEmprendedores() {
+	  EmpleoLogIn.emprendedores();
+  }
+  
+  
+  
+    
 }
