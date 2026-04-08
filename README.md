@@ -38,9 +38,12 @@ Bienvenido al repositorio central de Aseguramiento de la Calidad (QA) para los s
 ├── .github/workflows   # Pipelines de CI/CD              
 ├── docs/               # Documentación de casos de prueba
 ├── src/
+|   |──gestionvehicular/
+        └──GestionVehicularForm
 │   ├── mainTest/          # Page Object Model (si aplica)
 |      └──SearchGuardavidaMain
 |      └──SearchMuni
+|      └──SearchGestionVehicular
 |      └──SitioOficinaEmpleo
 │   ├── testAutomatizacion/     # Scripts de prueba organizados por módulo
 │   │   ├── empleoFormtest
