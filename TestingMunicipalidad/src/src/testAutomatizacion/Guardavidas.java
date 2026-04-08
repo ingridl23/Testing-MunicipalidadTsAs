@@ -1,4 +1,4 @@
-package testAutomatizacion;
+package src.testAutomatizacion;
 
 import java.time.Duration;
 
@@ -29,18 +29,18 @@ public class Guardavidas {
 	public void login(String user, String pass) {
 	    System.out.println("Listo para iniciar sesion");
 
-	    By btnIniciarSesion = By.xpath("//a[contains(text(),'Iniciar Sesión')]");
+	    By btnIniciarSesion = By.xpath("//a[contains(text(),'Iniciar SesiÃ³n')]");
 
-	    // Esperar a que el botón sea clickeable
+	    // Esperar a que el botÃ³n sea clickeable
 	    loginBtn = wait.until(ExpectedConditions.elementToBeClickable(btnIniciarSesion));
 
-	    // Scroll hacia el botón
+	    // Scroll hacia el botÃ³n
 	    ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", loginBtn);
 
 	    try {
 	        loginBtn.click();
 	    } catch (Exception e) {
-	        System.out.println("Click normal falló, intentando con JS...");
+	        System.out.println("Click normal fallÃ³, intentando con JS...");
 	        ((JavascriptExecutor) driver).executeScript("arguments[0].click();", loginBtn);
 	    }
 
@@ -58,7 +58,7 @@ public class Guardavidas {
 	    try {
 	    	passBtn.click();
 
-		    System.out.println("Botón de iniciar sesión presionado");
+		    System.out.println("BotÃ³n de iniciar sesiÃ³n presionado");
 	    	
 	    }catch(Exception e) {
 	    	System.out.println("intentando hacer click con js en boton iniciar sesion");
@@ -420,7 +420,7 @@ public class Guardavidas {
 		funcion.sendKeys("encargado");
 		
 		WebElement turno = driver.findElement(By.id(""));
-		turno.sendKeys("M"); // T valores de mañana o tarde
+		turno.sendKeys("M"); // T valores de maÃ±ana o tarde
 		
 		
 		//*********************SECCION PERFIL ***************************
@@ -493,12 +493,12 @@ public class Guardavidas {
 	   private void enviarFormulario(WebDriver driver) {
 	        driver.findElement(By.id("submitButton")).click();
 
-	        // Esperar mensaje de éxito o redirección
+	        // Esperar mensaje de Ã©xito o redirecciÃ³n
 	        try {
 	            WebElement mensaje = wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".alert-success")));
-	            System.out.println("✅ Formulario enviado con éxito: " + mensaje.getText());
+	            System.out.println("âœ… Formulario enviado con Ã©xito: " + mensaje.getText());
 	        } catch (TimeoutException e) {
-	            System.out.println("⚠️ No se encontró el mensaje de éxito. Verificar respuesta del servidor.");
+	            System.out.println("âš ï¸� No se encontrÃ³ el mensaje de Ã©xito. Verificar respuesta del servidor.");
 	        }
 	    }
 	
@@ -531,7 +531,7 @@ public class Guardavidas {
 			 
 
 				WebElement inputBandera =  driver.findElement(By.id(""));
-				 inputBandera.sendKeys("2");//valores posibles : 1 bueno-2 dudoso-3 peligroso-4 rayos-5 prohibido bañarse-6 niño perdido
+				 inputBandera.sendKeys("2");//valores posibles : 1 bueno-2 dudoso-3 peligroso-4 rayos-5 prohibido baÃ±arse-6 niÃ±o perdido
 				 
 
 					WebElement inputDetalles =  driver.findElement(By.id(""));
@@ -575,7 +575,7 @@ public class Guardavidas {
 				 
 
 					WebElement inputTipoNovedad =  driver.findElement(By.id(""));
-					 inputTipoNovedad.sendKeys("");// valores posibles : Daño-Falla-Faltante-Pérdida-Rotura
+					 inputTipoNovedad.sendKeys("");// valores posibles : DaÃ±o-Falla-Faltante-PÃ©rdida-Rotura
 					 
 					 
 						WebElement inputDetalles =  driver.findElement(By.id(""));

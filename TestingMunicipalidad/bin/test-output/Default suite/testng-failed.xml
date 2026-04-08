@@ -5,9 +5,9 @@
     <classes>
       <class name="mainTest.SitioOficinaEmpleo">
         <methods>
+          <include name="seccionEmprendedores"/>
           <include name="loadPage"/>
           <include name="initPageFactory"/>
-          <include name="testFormularioBuscoEmpleo"/>
         </methods>
       </class> <!-- mainTest.SitioOficinaEmpleo -->
     </classes>

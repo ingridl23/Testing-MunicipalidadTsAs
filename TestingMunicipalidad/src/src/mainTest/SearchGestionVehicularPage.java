@@ -1,11 +1,17 @@
-package mainTest;
+package src.mainTest;
+
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
+
 import testAutomatizacion.SearchPageMunitTest;
 
-public class SearchMuniMain {
+public class SearchGestionVehicularPage {
+
+	
+	    
 	private static WebDriver driver;
     
     public static void main(String[] args) {
@@ -19,7 +25,7 @@ public class SearchMuniMain {
         // creamos la instancia
         SearchPageMunitTest searchPage = new SearchPageMunitTest(driver);
         // buscamos algo
-        searchPage.buscar("municipalidad tres arroyos");
+        searchPage.buscar("gestion vehicular tres arroyos");
         // cerramos el driver
         //driver.close();
     }

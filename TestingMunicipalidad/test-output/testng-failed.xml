@@ -3,19 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mainTest.SearchGuardavidaMain">
+      <class name="mainTest.SearchSitioGestionVehicular">
         <methods>
-          <include name="setup"/>
-          <include name="intervenciones"/>
-          <include name="listadoGuardavidas"/>
-          <include name="misAsistencias"/>
-          <include name="miPerfil"/>
-          <include name="cerrarSesion"/>
-          <include name="listadoAsistencias"/>
-          <include name="listadoTurnos"/>
-          <include name="seccionBanderas"/>
+          <include name="apartadoVehiculos"/>
+          <include name="initPageFactory"/>
         </methods>
-      </class> <!-- mainTest.SearchGuardavidaMain -->
+      </class> <!-- mainTest.SearchSitioGestionVehicular -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

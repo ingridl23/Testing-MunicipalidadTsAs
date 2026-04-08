@@ -1,4 +1,4 @@
-package testAutomatizacion;
+package src.testAutomatizacion;
 
 import java.time.Duration;
 import org.openqa.selenium.By;

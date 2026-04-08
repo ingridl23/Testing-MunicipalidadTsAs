@@ -27,12 +27,12 @@ public class SitioOficinaEmpleo {
 //primero tengo que encontrar el sitio  del municipio de tres arroyos 
     @Test (priority=1)
     public void loadPage() {
-            driver.navigate().to("https://www.tresarroyos.gov.ar");
+            driver.navigate().to("https://emprendedores.tresarroyos.gov.ar/");
             String titulo = driver.getTitle();
-            String expectedTitle = "Municipalidad de Tres Arroyos";
+            String expectedTitle = "Bienvenidos a la Oficina de Empleo y Capacitación de Tres Arroyos";
             System.out.println(titulo);
-            System.out.println("Entre al sitio oficial del municipio");
-            //Comprobamos que realmente estamos en Spotify. Buena Practica!!!
+            System.out.println("Entre al sitio de oficina de empleo");
+            //Comprobamos que realmente estamos . Buena Practica!!!
             assertEquals(titulo, expectedTitle);
            // SPFYSearchSong.sacarCookies();
     }

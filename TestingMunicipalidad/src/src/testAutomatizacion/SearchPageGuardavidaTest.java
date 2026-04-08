@@ -1,4 +1,4 @@
-package testAutomatizacion;
+package src.testAutomatizacion;
 
 import java.time.Duration;
 
